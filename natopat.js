@@ -30,10 +30,10 @@ define(['alphabet'], function(alphabet) {
         }
         else {
             sourceText = sourceText.replace(/\W/g, '');
-            var supremeAlphanumerics = supreme.alphanumerics;
+            var alphanumerics = alphabet.alphanumerics;
             var firstChar = sourceText.split('')[0].toUpperCase();
             var restChars = sourceText.substring(1, sourceText.length);
-            return supremeAlphanumerics[firstChar] + ' ' + recurse(restChars);
+            return alphanumerics[firstChar] + ' ' + recurse(restChars);
         }
     }
 
