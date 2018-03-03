@@ -1,0 +1,19 @@
+{
+  "name": "natopat",
+  "version": "1.0.0",
+  "description": "NATO phonetic alphabet translator",
+  "main": "natopat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewdocode/natopat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewdocode/natopat/issues"
+  },
+  "homepage": "https://github.com/drewdocode/natopat#readme"
+}
