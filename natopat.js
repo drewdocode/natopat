@@ -1,4 +1,4 @@
-define(['alphabet'], function(alphabet) {
+define(['./alphabet'], function(alphabet) {
 
     var translate = function(sourceText) {
         sourceText = sourceText.replace(/\W/g, '');
