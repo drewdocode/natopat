@@ -1,4 +1,4 @@
-define(['supreme'], function(supreme) {
+define(['alphabet'], function(alphabet) {
 
     var translate = function(sourceText) {
         sourceText = sourceText.replace(/\W/g, '');
