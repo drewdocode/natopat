@@ -11,10 +11,10 @@ define(['alphabet'], function(alphabet) {
             var sum = sumArray(numbers);            
             
             if(numbers[0] > numbers[1] && numbers[1] > 0) {
-                translation += 'not being born to ';
+                translation += 'up to ';
             }
             else {
-                translation += 'all being born to ';
+                translation += 'down to ';
             }
             
             sourceText = sum.toString();
